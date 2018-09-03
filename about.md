@@ -12,7 +12,7 @@ Mike spent the first five years of his software development career in open rebel
 
 Mike worked as the General Manager of Trike Apps for just short of four years. At that time, Bellroy was Trike's biggest client, so much so that the management of both companies agreed to merge TrikeApps into Bellroy and make the Trike team Bellroy's Tech Team. From there, we've never looked back.
 
-When he's not working, Mike likes to spend time outdoors with his family. He especially enjoys camping and doesn't do it nearly often enough. Mike has travelled the world extensively (he's spent at least a week in Malaysia, Thailand, Cambodia, Vietnam, Japan, Egypt, Kenya, Tanzania, UAE, Argentina, Chile, Bolivia, Peru, Ecuador, Guatemala, Mexico, USA, Canada, Ireland, Northern Ireland, England, Scotland, France, Germany, Netherlands, Spain, Switzerland, Czech Republic, Croatia and Turkey) and still wishes he could do more travel. He still plays guitar a lot, bass not often enough, and drums more than his talent dictates he should.
+When he's not working, Mike likes to spend time outdoors with his family. He especially enjoys camping and doesn't do it nearly often enough. Mike has travelled the world extensively (he's spent at least a week in Malaysia, Thailand, Cambodia, Vietnam, Japan, Egypt, Kenya, Tanzania, UAE, Argentina, Chile, Bolivia, Peru, Ecuador, Guatemala, Mexico, USA, Canada, Ireland, Northern Ireland, England, Scotland, France, Germany, Netherlands, Spain, Switzerland, Czech Republic, Croatia and Turkey) and still wishes he could do more travel. He still plays guitar a lot, piano a bit, bass not often enough, and drums more than his talent dictates he should.
 
 ### Qualifications
 Bachelor of Applied Science (Computer Science)
