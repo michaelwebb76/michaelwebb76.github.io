@@ -15,8 +15,9 @@ Mike worked as the General Manager of Trike Apps for just short of four years. A
 When he's not working, Mike likes to spend time outdoors with his family. He especially enjoys camping and doesn't do it nearly often enough. Mike has travelled the world extensively (he's spent at least a week in Malaysia, Thailand, Cambodia, Vietnam, Japan, Egypt, Kenya, Tanzania, UAE, Argentina, Chile, Bolivia, Peru, Ecuador, Guatemala, Mexico, USA, Canada, Ireland, Northern Ireland, England, Scotland, France, Germany, Netherlands, Spain, Switzerland, Czech Republic, Croatia and Turkey) and still wishes he could do more travel. He still plays guitar a lot, piano a bit, bass not often enough, and drums more than his talent dictates he should.
 
 ### Qualifications
-Bachelor of Applied Science (Computer Science)
-Masters of Business Administration
+
+* Bachelor of Applied Science (Computer Science)
+* Masters of Business Administration
 
 ### Contact me
 
