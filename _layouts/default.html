@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    {% include meta.html %}
+<head>
+	<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	{% include meta.html %}
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+	<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+</head>
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+<body>
+	<!-- body content -->
+	<div class="main-content">
+		<div class="container ">
+			<div class="columns is-multiline">
+				<div class="column is-3 is-narrow has-text-centered">
+					<div class="nav-header">
+						<h3 class="title is-3">{{ site.name }}</h3>
+						<center>
+							<figure class="image is-128x128">
+								<a href="{{ site.baseurl }}/" class="image"><img class="image is-rounded" src="{{ site.avatar }}" /></a>
+							</figure>
+						</center>
+						<hr/>
+						<h4 class="subtitle is-5"><i>{{ site.description }}</i></h4>
+					</div>
+					<hr/>
+					<!-- navigation -->
+					<aside class="menu">
+						<p class="menu-label">
+							<a href="{{ site.baseurl }}/">Blog</a>
+						</p>
+						<p class="menu-label">
+							<a href="{{ site.baseurl }}/about">About</a>
+						</p>
+					</aside>
+					<!-- end navigation -->
+				</div>
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+				<div class="column is-8 is-offset-1 is-centered">
+					{{ content }}
+				</div>
+			</div>
+		</div>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+		<div class="footer">
+			<div class="container has-text-centered">
+				<footer class="footer">
+					{% include svg-icons.html %}
+				</footer>
+			</div>
+		</div>
+	</div>
+	{% include analytics.html %}
+</body>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-  </body>
 </html>
